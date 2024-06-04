@@ -19,3 +19,9 @@ Sphinx = "^7.3.7"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+pythonpath = "."
+python_files = "test_*.py tests.py"
+addopts = "-ra -q --doctest-modules"
