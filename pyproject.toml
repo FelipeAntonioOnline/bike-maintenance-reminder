@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bike-maintenance-reminder"
+version = "0.1.0"
+description = "A program to automatically track the need for maintenance for varied bicycle parts"
+authors = ["Felipe Antonio <felipe.antonio.online@proton.me>"]
+license = "AGPL3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+flake8 = "^7.0.0"
+pytest = "^8.2.2"
+pytest-cov = "^5.0.0"
+Sphinx = "^7.3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
