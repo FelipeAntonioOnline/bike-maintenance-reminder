@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "bike-maintenance-reminder"
+name = "bike_maintenance_reminder"
 version = "0.1.0"
 description = "A program to automatically track the need for maintenance for varied bicycle parts"
 authors = ["Felipe Antonio <felipe.antonio.online@proton.me>"]
